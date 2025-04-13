@@ -13,7 +13,7 @@ counter = 0
 face_match = False
 reference_images = {}
 attendance = {}
-reference_dir = "D:/testing/reference_imges"
+reference_dir = "reference_image_address" # reference image address here
 for filename in os.listdir(reference_dir):
     if filename.endswith((".jpg", ".png")):
         name = os.path.splitext(filename)[0]
